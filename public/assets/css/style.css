@@ -1,2 +1,56 @@
 body {
+    background-image: url("/assets/images/background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    position: absolute;
+    bottom: 13%;
+    margin-left: 35%;
+}
+
+.jumbotron {
+  position: relative;
+  top: -20px;
+  height: 450px;
+  background-color: rgba(270,270,270,.6)!important;
+  background-image: url("/assets/images/nyt.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-center{
+  color: #000;
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
+
+.navbar-brand {
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.btn-save {
+    background-color: cornflowerblue;
+}
+
+.panel-title, h4 {
+    background-color: lightgray;
 }
